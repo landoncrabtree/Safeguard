@@ -1,0 +1,7 @@
+name: Safeguard
+version: 1.0
+main: pw.landon.safeguard.SafeguardPlugin
+commands:
+  safeguard:
+    aliases: [sg]
+  sgreload:

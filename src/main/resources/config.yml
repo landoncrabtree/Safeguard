@@ -11,6 +11,7 @@ information:
   - "Limit of 5,000 checks/month on the free plan."
 
 api_key: ""
+mcleaks_api_key: ""
 
 options:
   prevent_vpn: true
@@ -31,6 +32,7 @@ messages:
   vpn_kick: "&c&l[!] &7Your IP address is connected to a VPN provider.\nPlease disable any &cVPN/Proxy&7 to connect to the server."
   proxy_kick: "&c&l[!] &7Your IP address is connected to a proxy provider.\nPlease disable any &cVPN/Proxy&7 to connect to the server."
   fraud_score_kick: "&c&l[!] &7Your IP address is connected to a high fraud score.\nYour connection to the server was cancelled."
+  mcleaks_kick: "&cThis account is compromised.\nAppeal at www.server.com."
   vpn_notify: "&b&l[SafeGuard] &3&n%player%&r &7tried to connect with a VPN. Connection cancelled."
   proxy_notify: "&b&l[SafeGuard] &3&n%player%&r &7tried to connect with a proxy. Connection cancelled."
   fraud_score_notify: "&b&l[SafeGuard] &3&n%player%&r &7tried to connect with a high fraud score. Connection cancelled."

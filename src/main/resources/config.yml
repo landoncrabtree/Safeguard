@@ -9,6 +9,7 @@ information:
   - "All data is gathered from IPQualityScore API."
   - "Create an account at https://www.ipqualityscore.com to get your API key."
   - "Limit of 5,000 checks/month on the free plan."
+
 api_key: ""
 
 options:

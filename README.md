@@ -12,3 +12,5 @@ Safeguard utilizes the IPQualityScore API, to lookup the IPs connecting to your 
 
 ### Usage
 Install the plugin, and generate the configuration file. Head over to IPQualityScore and create an account, and put your API key into the configuration section. IPQS has a limit of 5,000 queries/month, which should be enough for smaller communities, and you can upgrade your plan to receive more monthly queries.
+
+#### Compiled on Spigot 1.8.8.

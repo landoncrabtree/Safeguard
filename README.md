@@ -3,6 +3,8 @@ Safeguard is an all-new server protection tool for server administrators. Protec
 
 Safeguard utilizes the IPQualityScore API, to lookup the IPs connecting to your server. IPQS then checks the IP against their database for VPN/proxy priors and fraudulent activity such as chargebacks. Safeguard also comes with a captcha GUI to prevent bots taking over your community. 
 
+https://www.spigotmc.org/resources/safeguard-server-protection-anti-vpn-anti-proxy-anti-bot-fraud-detection.74301/
+
 ### Features
 * Prevent VPN connections
 * Prevent proxy connections

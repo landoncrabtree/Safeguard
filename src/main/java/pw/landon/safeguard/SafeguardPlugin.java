@@ -27,6 +27,11 @@ public class SafeguardPlugin extends JavaPlugin {
         System.out.println("Your server is protected by SAFEGUARD.");
     }
 
+    @Override
+    public void onDisable() {
+        this.checkMcLeaks().shutdown();
+    }
+
     private void registerCommands() {
         this.getCommand("safeguard").setExecutor(new SafeguardCommand(this));
         this.getCommand("sgreload").setExecutor(new ReloadCommand(this));

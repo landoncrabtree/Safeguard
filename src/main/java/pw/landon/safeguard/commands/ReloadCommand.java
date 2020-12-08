@@ -10,7 +10,7 @@ import pw.landon.safeguard.SafeguardPlugin;
 public class ReloadCommand implements CommandExecutor {
 
     private SafeguardPlugin main;
-    public ReloadCommand(SafeguardPlugin main) {this.main = SafeguardPlugin.getInstance();}
+    public ReloadCommand(SafeguardPlugin main) { this.main = SafeguardPlugin.getInstance(); }
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {
@@ -29,5 +29,4 @@ public class ReloadCommand implements CommandExecutor {
         }
         return true;
     }
-
 }

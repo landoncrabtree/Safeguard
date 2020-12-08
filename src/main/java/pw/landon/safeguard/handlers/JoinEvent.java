@@ -50,7 +50,7 @@ public class JoinEvent implements Listener {
     public void inventoryInteract(InventoryClickEvent event) {
         if (event.getInventory().getTitle().equals(Chat.color(main.getConfig().getString("options.captcha_gui_title")))) {
             Player player = (Player) event.getWhoClicked();
-            if (!(event.getCurrentItem() == null || event.getCurrentItem() == new ItemStack(Material.AIR))) {
+            if (!(event.getCurrentItem() == null || event.getCurrentItem().equals(new ItemStack(Material.AIR)))) {
                 if (event.getCurrentItem().getItemMeta().getDisplayName().equals(Chat.color("&a&lCLICK TO PASS CAPTCHA"))) {
                     close.add(player);
                     new BukkitRunnable() {
